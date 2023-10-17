@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d2f4df7-48a4-46e0-8862-94225753c839" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/AdaptiveTestingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/controller/ExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/exception/AcmeAppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/exception/handler/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/exception/handler/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/dto/ExamDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/dto/QuestionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/dto/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/model/dto/TestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/repository/ExamRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/repository/QuestionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/repository/TestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/impl/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/java/com/ria/adaptiveTesting/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/AdaptiveTestingApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/CreateExamTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/CreateQuestionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/CreateStudentTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/CreateTestTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/ExamResultTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/GetExamsListTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/GetQuestionByIdTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/GetQuestionsListTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/java/com/ria/adaptiveTesting/GetStudentListTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/src/test/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/AdaptiveTestingApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/controller/ExamController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/controller/QuestionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/exception/AcmeAppException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/exception/handler/ErrorMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/exception/handler/RestExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/Exam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/Question.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/dto/ExamDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/dto/QuestionDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/dto/StudentDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/model/dto/TestDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/repository/ExamRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/repository/QuestionRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/repository/StudentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/repository/TestRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/ExamService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/QuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/TestService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/impl/ExamServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/impl/QuestionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/classes/com/ria/adaptiveTesting/service/impl/TestServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/AdaptiveTestingApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/CreateExamTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/CreateQuestionTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/CreateStudentTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/CreateTestTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/ExamResultTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/ExamStartTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/ExamUpdateTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/GetExamsListTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/GetQuestionByIdTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/GetQuestionsListTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/GetStudentListTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/adaptiveTesting/target/test-classes/com/ria/adaptiveTesting/TestTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2VQMIJ5HTt6LGr75jTS5xM9iPlD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "C:/Users/GetRia/IdeaProjects/adaptiveTesting",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\GetRia\IdeaProjects\adaptiveTesting\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ria.adaptiveTesting" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean spring-boot:run" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CreateExamTests">
+    <configuration name="CreateExamTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptiveTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ria.adaptiveTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ria.adaptiveTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.ria.adaptiveTesting.CreateExamTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateExamTests.givenValidExamRequest_createExamAndReturnExam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptiveTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ria.adaptiveTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ria.adaptiveTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.ria.adaptiveTesting.CreateExamTests" />
+      <option name="METHOD_NAME" value="givenValidExamRequest_createExamAndReturnExam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamResultTests.ExamResultTestsReturnResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptiveTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ria.adaptiveTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ria.adaptiveTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.ria.adaptiveTesting.ExamResultTests" />
+      <option name="METHOD_NAME" value="ExamResultTestsReturnResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamStartTests.testStartExamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptiveTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ria.adaptiveTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ria.adaptiveTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.ria.adaptiveTesting.ExamStartTests" />
+      <option name="METHOD_NAME" value="testStartExamTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamUpdateTests.givenValidUpdateRequest_ReturnQuestionDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adaptiveTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ria.adaptiveTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ria.adaptiveTesting" />
+      <option name="MAIN_CLASS_NAME" value="com.ria.adaptiveTesting.ExamUpdateTests" />
+      <option name="METHOD_NAME" value="givenValidUpdateRequest_ReturnQuestionDTO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExamUpdateTests.givenValidUpdateRequest_ReturnQuestionDTO" />
+        <item itemvalue="JUnit.ExamStartTests.testStartExamTest" />
+        <item itemvalue="JUnit.ExamResultTests.ExamResultTestsReturnResult" />
+        <item itemvalue="JUnit.CreateExamTests.givenValidExamRequest_createExamAndReturnExam" />
+        <item itemvalue="JUnit.CreateExamTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d2f4df7-48a4-46e0-8862-94225753c839" name="Changes" comment="" />
+      <created>1694763770144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694763770144</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1697523888201</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697523888201</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+</project>

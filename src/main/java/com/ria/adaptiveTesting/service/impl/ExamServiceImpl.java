@@ -15,8 +15,11 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import static com.ria.adaptiveTesting.model.Exam.ExamToInTestDTO;
 
 @Service
 public class ExamServiceImpl implements ExamService {
@@ -43,14 +46,17 @@ public class ExamServiceImpl implements ExamService {
     }
 
     @Override
-    public Exam createExam(ExamDTO examDTO) {
+    public ExamDTO createExam(ExamDTO examDTO) {
         try{
             Exam exam = Exam.getExamFromDTO(examDTO);
             Exam.validateExam(exam);
             exam.setCreatedTimeStamp(null);
+            exam.setUpdatedTimeStamp(null);
             exam.setQuestionNumber(0);
             exam.setScore(0);
-            return examRepository.save(exam);
+            examRepository.save(exam);
+//            return examRepository.save(exam);
+            return Exam.ExamToInTestDTO(exam);
         } catch (AcmeAppException e) {
             throw new AcmeAppException(e.getMessage(), HttpStatus.BAD_REQUEST);
         }
@@ -95,6 +101,13 @@ public class ExamServiceImpl implements ExamService {
     public Exam getExamByExamId(String examId){
         return examRepository.findByExamId(examId);
     }
+
+    public List<String> append_id_to_attempted_questions(String questionId){
+        List<String> attemptedQuestions;
+        attemptedQuestions = new ArrayList<>();
+        attemptedQuestions.add(questionId);
+        return attemptedQuestions;
+    }
     @Override
     public QuestionDTO updateExam(String examId, int selectedOption) {
         Exam exam = examRepository.findByExamId(examId);
@@ -111,6 +124,7 @@ public class ExamServiceImpl implements ExamService {
         }
         else {
             if (currentQuestion.getCorrectOptionIndex() == selectedOption) {
+                append_id_to_attempted_questions(currentQuestion.getId());
                 if (exam.getSubQuestionIndex() < questions.get(exam.getQuestionIndex()).size() - 1)
                 {
                     exam.setSubQuestionIndex(exam.getSubQuestionIndex() + 1);
@@ -120,7 +134,7 @@ public class ExamServiceImpl implements ExamService {
                     System.out.println("score : " + exam.getScore());
                 } else if (exam.getQuestionIndex() < questions.size() - 1)
                 {
-                    exam.setSubQuestionIndex(0);
+                    exam.setSubQuestionIndex(1);
                     exam.setQuestionIndex(exam.getQuestionIndex() + 1);
                     System.out.println("Question:" + exam.getQuestionIndex() + "sub Question:" + exam.getSubQuestionIndex());
                     exam.setScore(exam.getScore() + 1);

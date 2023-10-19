@@ -20,7 +20,7 @@ public class ExamController {
     public ExamService examService;
 
     @PostMapping("/create")
-    public Exam createExam(@RequestBody ExamDTO exam) {
+    public ExamDTO createExam(@RequestBody ExamDTO exam) {
         return examService.createExam(exam);
     }
 
@@ -41,7 +41,6 @@ public class ExamController {
         return ResponseEntity.ok().body(examService.updateExam(examId,selectedOption));
     }
 
-//    @GetMapping("/next/{examId}")
     public QuestionDTO getNextQuestion(@PathVariable String examId) throws Exception {
         if (examService.getExamByExamId(examId).getUpdatedTimeStamp() == null) {
             return examService.getNextQuestion(examId);
@@ -50,7 +49,6 @@ public class ExamController {
             throw new AcmeAppException("Exam ended!", HttpStatus.OK);
         }
     }
-//    @GetMapping("/exam-status")
     public String checkExamOver(String examId){
         if(examService.examEnded(examId)) {
             return "Your Exam has ended!";

@@ -10,7 +10,7 @@ import java.util.Optional;
 public interface ExamService {
     List<Exam> getAllExams();
     Optional<Exam> getExamById(String id);
-    Exam createExam(ExamDTO examDTO) ;
+    ExamDTO createExam(ExamDTO examDTO) ;
     QuestionDTO getFirstQuestion(String examId);
 
     String startExam(String examId);
